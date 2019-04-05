@@ -36,7 +36,7 @@ def turn(board)
 end
 
 def x_wins?(board)
-  
+  (board == ["X", "X", "X", " ", " ", " ", " "])
 
 # Define your play method below
 def play(board)
