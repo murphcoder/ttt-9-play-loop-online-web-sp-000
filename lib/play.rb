@@ -35,9 +35,9 @@ def turn(board)
   end
 end
 
-def x_wins?(board)
-  (board == ["X", "X", "X", " ", " ", " ", " "])
-
 # Define your play method below
 def play(board)
-  until board[0] && board
+  until board == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+    turn(board)
+  end
+end
