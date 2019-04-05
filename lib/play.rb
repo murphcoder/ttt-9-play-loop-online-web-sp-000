@@ -37,4 +37,4 @@ end
 
 # Define your play method below
 def play(board)
-  
+  until board[0] && board
