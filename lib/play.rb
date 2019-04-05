@@ -35,6 +35,9 @@ def turn(board)
   end
 end
 
+def x_wins?(board)
+  
+
 # Define your play method below
 def play(board)
   until board[0] && board
